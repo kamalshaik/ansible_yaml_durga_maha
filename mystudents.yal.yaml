@@ -1,0 +1,20 @@
+---
+- mystudents:
+    - name: kamal
+      phno: 1121212
+      address:
+        - doorno: 123
+        - street: ASAS
+        - pin: 232323
+    - name: puma
+      phno: 1121212
+      address:
+        - doorno: 123
+        - street: ASAS
+        - pin: 232323
+    - name: nandhu
+      phno: 1121212
+      address:
+        - doorno: 123
+        - street: ASAS
+        - pin: 232323
