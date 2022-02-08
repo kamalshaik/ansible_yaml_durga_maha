@@ -1,0 +1,12 @@
+---
+- hosts: all
+  become: yes
+  tasks:
+    - name: i want to install git, tree and wget by same task
+      apt:
+        name: "{{ item }}"
+        state: present # if we dont want we need to ad absent
+      loop:
+        - git
+        - tree
+        - wget
