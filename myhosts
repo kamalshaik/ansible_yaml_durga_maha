@@ -1,4 +1,15 @@
-[mywebservers-ubuntu]
+[mywebservers]
 172.31.36.36
-[mywebservers-Redhat]
 172.31.12.220
+
+[mywebservers-DB]
+172.31.12.240
+172.31.12.250
+
+[mywebservers-SIT]
+172.31.12.260
+172.31.12.270
+
+[mywebservers-UAT]
+172.31.12.280
+172.31.12.290
